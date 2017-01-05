@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <title>@yield('title')</title>
     <!-- Css Strart -->
-    <link href="{{asset('/css/style.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('/css/weui.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('/css/style.css')}}" rel="stylesheet" type="text/css">
     <!-- Css End-->
     @yield('css')
 

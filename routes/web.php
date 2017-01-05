@@ -10,9 +10,6 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-// Route::get('/',function(){
-// 	return view('king');
-// });
 
 // 注册登录
 Route::get('/member/login',function(){
@@ -23,10 +20,7 @@ Route::get('/member/register',function(){
 	return view('member.register');
 });
 
-// -------------------
-// Route::get('/',function(){
-//  return 'hello king!';
-// });
+
 // // Route::get('msg','MsgController@index');
 // Route::match(['get','post'],'up','MsgController@up');
 // Route::any('pp','MsgController@pp');
