@@ -15,8 +15,12 @@
 // });
 
 // 注册登录
-Route::get('login',function(){
-	return view('login');
+Route::get('/member/login',function(){
+	return view('member.login');
+});
+
+Route::get('/member/register',function(){
+	return view('member.register');
 });
 
 // -------------------
