@@ -17,7 +17,9 @@
     @yield('js')
 </head>
 <body>
-    @yield('content')
+    <div class="page">
+        @yield('content')
+    </div>
     <!-- tooltips -->
     <div class="bk_toptips">
         <span></span>
@@ -32,10 +34,10 @@
         <div class="weui_mask_transition" id="mask"></div>
         <div class="weui_actionsheet" id="weui_actionsheet">
             <div class="weui_actionsheet_menu">
-                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(1)">用户中心</div>
-                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(2)">选择套餐</div>
-                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(3)">周边油站</div>
-                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(4)">常见问题</div>
+                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(1)">个人中心</div>
+                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(2)">充值</div>
+                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(3)">积分</div>
+                <div class="weui_actionsheet_cell" onclick="onMenuItemClick(4)">帮助</div>
             </div>
             <div class="weui_actionsheet_action">
                 <div class="weui_actionsheet_cell" id="actionsheet_cancel">取消</div>

@@ -12,13 +12,11 @@
 */
 
 // 注册登录
-Route::get('/member/login',function(){
-	return view('member.login');
-});
+Route::get('/member/login','Member\MemberController@toLogin');
+Route::get('/member/register','Member\MemberController@toRegister');
 
-Route::get('/member/register',function(){
-	return view('member.register');
-});
+//验证码
+Route::any('service/captcha','Service\ValidateCodeController@create');
 
 
 // // Route::get('msg','MsgController@index');
