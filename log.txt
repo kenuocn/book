@@ -733,3 +733,253 @@ response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <statusMsg>短信验证码发送过频繁</statusMsg>
 </Response>
 
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>4039</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=7376AD0D4FDA1810FA08268195015C0A
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>000000</statusCode>
+    <TemplateSMS>
+        <smsMessageSid>db47643ab49d4825acda182bd766a994</smsMessageSid>
+        <dateCreated>20170108222607</dateCreated>
+    </TemplateSMS>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>2849</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=9F69045C26C514391815EAF5BC2D4815
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>1167</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=A5A6F9827564C0F1739BBC89DC718149
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>1306</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=27D12E6DA4FC3FEA4D792CDC67078127
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>7436</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=C8512CF271FD4CD911AF7D593D308FB1
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>5744</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=43DFEC3895C3759910AA2D71206AC38A
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>5981</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=D0999111D81AA8CA23789ACEFF4FD252
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>9973</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=60A9512FC08F36AEBD0C25550B63F8E2
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>3979</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=C34B54EB9C19F3E52A82AE85BE3BB721
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>4971</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=6F41DF4F08E73CF2AEFAC8772F434DEF
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>6176</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=CC4136CCB22D90C16FBDC35B7DB91E64
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>4639</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=0220175228F88BA20665B11CD80DC846
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>1696</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=234C49648241BFAD7F0777B3F4ACF132
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>0874</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=93B8734CC645FDA53CC0054DD03956C9
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>8165</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=B3701594F9E34B5EB459D34DCB54ABA9
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>12345676543</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>6023</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=BEE493E6A406FD36C0D79B6FE46866EB
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>112310</statusCode>
+    <statusMsg>【短信】应用未上线，模板短信接收号码外呼受限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>4449</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=3914EC2690C2C03D386BE5BF6949968D
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>4951</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=1A68670D6084518F5AE97316604A2646
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>13594727434</to> 
+                    <appId>8a216da856ff04b2015700bb3aa900e3</appId>
+                    <templateId>1</templateId>
+                    <datas><data>5727</data><data>60</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da856ff04b2015700bb367300dc/SMS/TemplateSMS?sig=9DB759FE29839C86EE22EDE1AF9CCFF4
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>160040</statusCode>
+    <statusMsg>验证码超出同模板同号码天发送上限</statusMsg>
+</Response>
+

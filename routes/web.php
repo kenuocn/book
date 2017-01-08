@@ -19,6 +19,7 @@ Route::get('service/captcha','Service\ValidateCodeController@create');
 
 //手机短信验证码
 Route::get('service/sendsms','Service\ValidateCodeController@sendSMS');
+Route::post('service/register','Service\MemberController@register');
 
 // // Route::get('msg','MsgController@index');
 // Route::match(['get','post'],'up','MsgController@up');

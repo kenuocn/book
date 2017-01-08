@@ -1,7 +1,7 @@
 <?php 
 namespace App\Http\Controllers\Service;
-use App\Vendor\Validate\ValidateCode;
 use App\Http\Controllers\Controller;
+use App\Vendor\Validate\ValidateCode;
 use Illuminate\Http\Request;
 use App\Vendor\SMS\SendTemplateSMS;
 use App\Http\Models\TempPhone;
