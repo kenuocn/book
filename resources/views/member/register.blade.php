@@ -111,7 +111,7 @@
 		if($(this).attr('id') == 'x11'){
 			$('#x11').next().show();
 			$('#x12').next().hide();
-			//显示隐藏手机号和Emaail注册表单
+			//显示隐藏手机号和Emaail注册表单`
 			$('.weui_cells_form').eq(0).show();
 			$('.weui_cells_form').eq(1).hide();
 		}else if($(this).attr('id') == 'x12'){
@@ -122,5 +122,13 @@
 			$('.weui_cells_form').eq(0).hide();
 		}
 	})
+
+	//点击发送手机验证码
+	// 手机号
+	$('.bk_phone_code_send').click(function(){
+		var phone = $('input[name=phone]').val();
+		var ajaxUrl = '/service/sendsms';
+		sendPhoneVerify(this,'.bk_important',phone,ajaxUrl);
+	});
 </script>
 @endsection

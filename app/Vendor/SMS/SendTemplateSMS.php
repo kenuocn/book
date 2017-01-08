@@ -2,24 +2,22 @@
 /*
  *  Copyright (c) 2014 The CCP project authors. All Rights Reserved.
  *
- *  Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
- *  that can be found in the LICENSE file in the root of the web site.
  *  http://www.yuntongxun.com
  *  email:1402992668@qq.com
  *  by:king
- *  s@param 短信验证码配置类
+ *  @param 短信验证码配置类
  */
 namespace App\Vendor\SMS;
-use App\Models\M3Result;
+use App\Http\Models\M3Result;
 class SendTemplateSMS{
-    //主帐号
-  private $accountSid='aaf98f8949d575140149dd482efa04b5';
+  //主帐号
+  private $accountSid='8a216da856ff04b2015700bb367300dc';
 
   //主帐号Token
-  private $accountToken='c7a1c3563b1347f4adbe0734f981dac1';
+  private $accountToken='be248422baf54ff3b8edda2981b15e73';
 
   //应用Id
-  private $appId='8a48b55149d5792d0149dd63a3c4046d';
+  private $appId='8a216da856ff04b2015700bb3aa900e3';
 
   //请求地址，格式如下，不需要写https://
   private $serverIP='app.cloopen.com';
@@ -50,7 +48,7 @@ class SendTemplateSMS{
     $result = $rest->sendTemplateSMS($to,$datas,$tempId);
     if($result == NULL ) {
         $m3_result->status = 3;
-        $m3_result->message = 'result error!';
+        $m3_result->message = '手机号码不能为空!';
     }
     if($result->statusCode!=0) {
         $m3_result->status = $result->statusCode;

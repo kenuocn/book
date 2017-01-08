@@ -15,8 +15,10 @@ Route::get('/member/login','Member\MemberController@toLogin');
 Route::get('/member/register','Member\MemberController@toRegister');
 
 //验证码
-Route::any('service/captcha','Service\ValidateCodeController@create');
+Route::get('service/captcha','Service\ValidateCodeController@create');
 
+//手机短信验证码
+Route::get('service/sendsms','Service\ValidateCodeController@sendSMS');
 
 // // Route::get('msg','MsgController@index');
 // Route::match(['get','post'],'up','MsgController@up');

@@ -12,9 +12,14 @@
     @yield('css')
 
     <!-- Js Strart -->
-    <script src="{{ asset('js/jquery-1.11.2.min.js') }}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('/js/jquery-1.11.2.min.js')}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('/js/common.js')}}" type="text/javascript" charset="utf-8"></script>
     <!-- End Js -->
     @yield('js')
+
+    <!--Layer-->
+    <script src="{{asset('/vendor/layer/layer.js')}}" type="text/javascript" charset="utf-8"></script>
+    <!--End layer-->
 </head>
 <body>
     <div class="page">
