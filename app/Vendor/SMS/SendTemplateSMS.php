@@ -8,7 +8,7 @@
  *  @param 短信验证码配置类
  */
 namespace App\Vendor\SMS;
-use App\Http\Models\M3Result;
+use App\Http\Models\Home\M3Result;
 class SendTemplateSMS{
   //主帐号
   private $accountSid='8a216da856ff04b2015700bb367300dc';

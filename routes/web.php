@@ -11,15 +11,15 @@
 */
 
 // 注册登录
-Route::get('/member/login','Member\MemberController@toLogin');
-Route::get('/member/register','Member\MemberController@toRegister');
+Route::get('/member/login','Home\Member\MemberController@toLogin');
+Route::get('/member/register','Home\Member\MemberController@toRegister');
 
 //验证码
-Route::get('service/captcha','Service\ValidateCodeController@create');
+Route::get('service/captcha','Home\Service\ValidateCodeController@create');
 
 //手机短信验证码
-Route::get('service/sendsms','Service\ValidateCodeController@sendSMS');
-Route::post('service/register','Service\MemberController@register');
+Route::get('service/sendsms','Home\Service\ValidateCodeController@sendSMS');
+Route::post('service/register','Home\Service\MemberController@register');
 
 // // Route::get('msg','MsgController@index');
 // Route::match(['get','post'],'up','MsgController@up');

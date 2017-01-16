@@ -1,5 +1,5 @@
 <?php 
-namespace App\Http\Models;
+namespace App\Http\Models\Home;
 class M3Result{
 	//状态码
 	public $status;

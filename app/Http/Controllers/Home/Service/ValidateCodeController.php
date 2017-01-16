@@ -1,11 +1,11 @@
 <?php 
-namespace App\Http\Controllers\Service;
+namespace App\Http\Controllers\Home\Service;
 use App\Http\Controllers\Controller;
 use App\Vendor\Validate\ValidateCode;
 use Illuminate\Http\Request;
 use App\Vendor\SMS\SendTemplateSMS;
-use App\Http\Models\TempPhone;
-use App\Http\Models\M3Result;
+use App\Http\Models\Home\TempPhone;
+use App\Http\Models\Home\M3Result;
 class ValidateCodeController extends Controller{
 
 	//生成验证码
@@ -18,7 +18,7 @@ class ValidateCodeController extends Controller{
 	public function sendSMS(Request $request){
 		$m3_result = new M3Result;
 		$phone = $request->input('phone','');
-
+		
 		if($phone == ''){
 			$m3_result->status = 1;
 			$m3_result->message = '手机号码不能为空!';
@@ -34,7 +34,11 @@ class ValidateCodeController extends Controller{
         }
 		$m3_result = $sms->sendTemplateSMS($phone,array($code,60),1);
 		if($m3_result->status == 0){
-			$tempPhone = new TempPhone;
+			//判断当前号码是否已经注册过
+			$tempPhone = TempPhone::where('phone',$phone)->first();
+			if(empty($tempPhone)){
+				$tempPhone = new TempPhone;
+			}
 			$tempPhone->phone = $phone;
 			$tempPhone->code = $code;
 			$tempPhone->deadline = time();

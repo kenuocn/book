@@ -1,5 +1,5 @@
 <?php 
-namespace App\Http\Controllers\Member;
+namespace App\Http\Controllers\Home\Member;
 use App\Http\Controllers\Controller;
 class MemberController extends Controller{
 	public function toLogin(){
