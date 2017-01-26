@@ -26,7 +26,12 @@ class MemberController extends BaseController{
         if(!$is_passes['status'])
                 return $this->ajaxReturn(0,$is_passes['info']);
         $tempPhone = new TempPhone;
-        $tempPhone->dealRegister($data);
+        $result = $tempPhone->dealRegister($data);
         //判断当前手机号码是否注册
+        if($result['status']){
+        	return $this->ajaxReturn(1,$result['info'],$result['data'],Route('User/index'));
+        }else{
+        	return $this->ajaxReturn(0,$result['info']);
+        }
 	}
 }
