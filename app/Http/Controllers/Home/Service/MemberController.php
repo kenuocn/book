@@ -34,4 +34,5 @@ class MemberController extends BaseController{
         	return $this->ajaxReturn(0,$result['info']);
         }
 	}
-}
+} 
+//zhe
